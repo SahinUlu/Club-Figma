@@ -1,0 +1,30 @@
+body {
+     
+    background: url("images/alesia-kazantceva-XLm6-fPwK5Q-unsplash-1.png"), rgba(150, 150, 150, .8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+  }
+
+
+  @media only screen and (min-width: 800px) {
+    body {
+      background: url("images/alesia-kazantceva-XLm6-fPwK5Q-unsplash-1.png"), rgba(150, 145, 145, .8);
+      background-blend-mode: multiply;
+      -moz-background-size: 100% auto;
+      -o-background-size: 100% auto;
+      -webkit-background-size: 100% auto;
+      background-size: 100% auto;
+      color: #E2E2E2;
+      background-repeat: no-repeat;
+      height: 80vh;
+      clear: both;
+    }
+  }
+
+
+

@@ -1,0 +1,106 @@
+
+/* Rectangle 4 */
+.section {
+
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  .section_h1 {
+    /* JOIN OUR BEST CLUB */
+    width: 100%;
+    height: auto;
+    font-family: Modak;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 80px;
+    color: white;
+    margin: 150px auto;
+    text-align: center;
+  }
+  
+  .section-div {
+    /* Rectangle 4 */
+    position: relative;
+    bottom: 60px;
+    width: 380px;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin: 10px auto;
+  }
+  .section-div-ul {
+    /* Best experience Good opportunities Valuable fellowship */
+    position: relative;
+    width: 219px;
+    height: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+    margin: 25px 20px;
+    /* or 67% */
+    color: #460808;
+  }
+  .section-div-ul li {
+    list-style-type: circle;
+    padding: 15px 10px;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .section {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .section_h1 {
+      /* JOIN OUR BEST CLUB */
+      width: 100%;
+      height: auto;
+      font-family: "Modak", cursive;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 80px;
+      line-height: 80px;
+      color: white;
+      margin: 150px auto;
+      text-align: center;
+    }
+  
+    .section-div {
+      /* Rectangle 4 */
+      position: absolute;
+      right: 150px;
+      width: 380px;
+      height: 190px;
+      top: 200px;
+      background: #FFFFFF;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+    }
+    .section-div-ul {
+      /* Best experience Good opportunities Valuable fellowship */
+      position: relative;
+      width: 219px;
+      height: 80px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 16px;
+      margin: 25px 20px;
+      /* or 67% */
+      color: #460808;
+    }
+    .section-div-ul li {
+      list-style-type: circle;
+      padding: 15px 10px;
+    }
+  }
